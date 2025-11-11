@@ -65,7 +65,7 @@ To run this project locally:
 
 Clone the repo:
 
-git clone https://github.com/CodeWithAlamin/The-Wild-Oasis-Booking.git
+git clone https://github.com/rabiul7772/The-wild-oasis-customer-website.git
 
 Install dependencies:
 
