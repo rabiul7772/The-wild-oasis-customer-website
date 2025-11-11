@@ -1,36 +1,93 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🌿 Wild Oasis Booking
 
-## Getting Started
+A full-stack cabin booking application built with **Next.js**, **Supabase**, and **Tailwind CSS** **NextAuth.js** **date-fns**— featuring user authentication, an interactive reservation system, and fully responsive design.
 
-First, run the development server:
+---
 
-```bash
+## 🚩 Project Overview
+
+Wild Oasis Booking is a platform that allows potential and actual guests to explore The Wild Oasis Hotel, browse cabins, and reserve their stays with ease. The app focuses on a smooth user experience with secure authentication and a reservation management system.
+
+---
+
+## 🧑‍🤝‍🧑 Users
+
+- **Potential Guests:** Can browse hotel and cabin information.
+- **Registered Guests:** Can make, view, update, and delete cabin reservations.
+
+---
+
+## 📋 Features
+
+### 1. Hotel & Cabin Information
+
+- Guests can learn about The Wild Oasis Hotel.
+- Guests can view detailed information and availability for each cabin.
+
+### 2. Cabin Filtering
+
+- Filter cabins by their maximum guest capacity to find suitable options.
+
+### 3. Reservation System
+
+- Reserve cabins for a specified date range.
+- Reservations are unpaid online; payment occurs at the hotel upon arrival.
+
+### 4. Reservation Management
+
+- View past and future reservations.
+- Update or delete existing reservations.
+
+### 5. User Authentication & Profiles
+
+- Guests must sign up and log in to make or manage reservations.
+- On sign-up, a profile is created automatically in the database.
+- Guests can update their profile information to facilitate faster check-in.
+
+---
+
+## 🛠️ Tech Stack
+
+| Technology    | Purpose                      |
+| ------------- | ---------------------------- |
+| Next.js       | React framework for frontend |
+| Supabase      | Backend (database)           |
+| Tailwind CSS, | Styling and responsive UI    |
+| NextAuth.js   | Authentication               |
+| date-fns      | Handling dates               |
+| Vercel        | Deployment platform          |
+
+---
+
+## ⚙️ Installation & Setup
+
+To run this project locally:
+
+Clone the repo:
+
+git clone https://github.com/CodeWithAlamin/The-Wild-Oasis-Booking.git
+
+Install dependencies:
+
+npm install
+
+Set up environment variables:
+
+You’ll need to configure Supabase and NextAuth (Google sign-in). Add your environment variables in a .env.local file. Check out the .env.local.example for what you need to include.
+
+Run the development server:
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open http://localhost:3000 to see the app.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Author
+👤 MD.Rabiul Akand
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+LinkedIn - linkedin.com/in/rabiul-akand
 
-## Learn More
+Feel free to contact me with any questions or feedback!
 
-To learn more about Next.js, take a look at the following resources:
+Acknowledgments
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+This application was created as part of the Udemy course taught by Jonas Schmedtmann. His clear teaching approach and expert guidance played a crucial role in helping me develop this project and deepen my understanding of Next.js. I’m sincerely grateful to Jonas for providing such an engaging and valuable learning experience.
