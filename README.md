@@ -1,4 +1,4 @@
-# 🌿 Wild Oasis Booking
+# 🌿 Wild Oasis Customer Facing App
 
 A full-stack cabin booking application built with **Next.js**, **Supabase**, and **Tailwind CSS** **NextAuth.js** **date-fns**— featuring user authentication, an interactive reservation system, and fully responsive design.
 
